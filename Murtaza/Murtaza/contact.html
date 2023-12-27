@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <header style="background-color: #000; padding: 0 20px;">
+        <nav class="container">
+            <ul class="nav-items">
+                <div class="logo">
+                    <a href="index.html"><img width="100" height="50"
+                            src="img/img/murtaza-stor-logo-removebg-preview.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <div class="hamburger">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                            class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                        </svg>
+                    </div>
+                    <menu>
+                        <li class="menu-items for-hov"><a href="index.html">Home</a></li>
+                        <li class="menu-items for-hov menu-item-has-children"><a href="product.html">Product</a>
+                            <div class="dropdown">
+                                <ul class="sub-menu">
+                                    <li class="sub-menu-items"><a href="men.html">Men</a></li>
+                                    <li class="sub-menu-items"><a href="women.html">Women</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-items for-hov"><a href="About.html">About</a></li>
+                        <li class="menu-items for-hov"><a href="contact.html">Contact</a></li>
+                    </menu>
+                </div>
+                <div class="nav-icons">
+                    <div class="cart">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                            class="bi bi-cart-check" viewBox="0 0 16 16">
+                            <path
+                                d="M11.354 6.354a.5.5 0 0 0-.708-.708L8 8.293 6.854 7.146a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z" />
+                            <path
+                                d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0m7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0" />
+                        </svg>
+                        <div class="cart-badge" style="color: #fff;">
+                            2
+                        </div>
+                    </div>
+                    <div class="search">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor"
+                            class="bi bi-search" viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0" />
+                        </svg>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <!-- navbar -->
+
+    <section
+        style="background: url('img/img/img5.jpg'); background-repeat: no-repeat; background-position: center; background-size: cover;">
+        <div class="linear" style="background: #00000073; padding: 150px 0;">
+            <div class="container">
+                <h1 class="page-title" style=" text-align: center; font-size: 45px; font-weight: 700;">Contact Us</h1>
+            </div>
+        </div>
+    </section>
+
+    <section style="padding: 50px 20px;">
+        <div class="container" style="display: flex; gap: 20px; align-items: center;">
+            <div class="col-1">
+                <form action="" style="display: flex; flex-direction: column; gap: 20px;">
+                    <div class="fn">
+                        <label for="fid">First Name :</label>
+                        <input placeholder="Enter Your First Name" required type="text" id="fid">
+                    </div>
+                    <div class="ln">
+                        <label for="lid">Last Name :</label>
+                        <input placeholder="Enter Your Last Name" required type="text" id="lid">
+                    </div>
+                    <div class="email">
+                        <label for="eid">Email :</label>
+                        <input placeholder="Enter Your Email Address" required type="text" id="eid">
+                    </div>
+                    <div class="desc" style="display: flex;">
+                        <label for="did">Description :</label>
+                        <textarea placeholder="Anything you like to say" name="" id="did" cols="30"
+                            rows="10"></textarea>
+                    </div>
+                    <div class="btn">
+                        <button type="submit">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="col-2">
+                <img style="border-radius: 12px;" height="400" width="100%" src="img/img/img20.PNG" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer style="background-color: #000; padding: 50px 20px;">
+        <div class="container">
+            <ul class="ft-nav-items">
+                <div class="ft-logo">
+                    <a href="index.html"><img width="100" height="50" src="img/img/murtaza-stor-logo-removebg-preview.png"
+                            alt=""></a>
+                    <p class="ft-logo-para" style="color: #fff;">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Ipsa, veritatis
+                        pariatur. Deserunt ipsum officiis sequi nulla error non eum incidunt soluta voluptate architecto
+                        nisi aut fugit obcaecati repudiandae, omnis sint!</p>
+                </div>
+                <div class="ft-menu">
+                    <h2 class="ft-heading">Menu</h2>
+                    <li class="ft-menu-items"><a href="index.html">Home</a></li>
+                    <li class="ft-menu-items"><a href="product.html">Product</a></li>
+                    <li class="ft-menu-items"><a href="About.html">About</a></li>
+                    <li class="ft-menu-items"><a href="contact.html">Contact</a></li>
+                </div>
+                <div class="ft-cat">
+                    <h2 class="ft-heading">Category</h2>
+                    <li class="ft-cat-items"><a href="men.html">Men</a></li>
+                    <li class="ft-cat-items"><a href="women.html">Women</a></li>
+                </div>
+            </ul>
+            <div class="sub-footer">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis aperiam</p>
+                <p>Copyright &copy; 2023 , December</p>
+            </div>
+        </div>
+    </footer>
+    <!-- footer -->
+</body>
+
+</html>
